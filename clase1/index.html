@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Clase 1 de HTML5 y CSS3 II</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+	<header>
+		<figure>
+		<img src="img/logo.png">
+		</figure>
+		<form id="busqueda" name="frm-Busqueda" method="POST" action="http://www.cadif1.com">
+		<input type="hidden" name="fecha" value="<?php date();>">
+		<label for="nombre">Buscar:</label>
+		<input type="text" name="nombre" id="nombre" placeholder="Buscar">
+		<input type="submit" name="enviar" value="enviar">
+		<nav>
+			<ul>
+				<li><a href="#">inicio</a></li>
+				<li><a href="#">Servicios</a></li>
+				<li><a href="#">Quienes Somos</a></li>
+				<li><a href="#">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section id="banner">
+		<h1>Tienda</h1>
+	</section>
+	<section id="noticias">
+		<h2>Noticias</h2>
+		<article>
+			<img src="img/imagen01.jpg" class="imagen-relativa">
+			<h3>¡Ganó Cardenales!</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</article>
+		<article>
+			<img src="img/imagen01.jpg">
+			<h3>¡Ganó Cardenales!</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</article>
+		<article>
+			<img src="img/imagen01.jpg">
+			<h3>¡Ganó Cardenales!</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</article>
+	</section>
+	<aside>
+		<p>Publicidad</p>
+	</aside>
+	<footer>
+		<p>Todos los derechos reservados &copy: CADI F1</p>
+	</footer>
+</body>
+</html>

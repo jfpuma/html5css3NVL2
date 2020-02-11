@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.fachada{
+    width: 400px;
+    height: 300px;
+    background-color: silver;
+    margin: 400px auto;
+}
+.ventana{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: relative;
+    top: 100px;
+    left: 70px;
+    border: solid black;
+}
+.puerta{
+    width: 100px;
+    height: 200px;
+    background: darkblue;
+    position: relative;
+    left: 250px;
+    bottom: 7px;
+    
+}
+.techo:after{
+    content: "";
+    border-top: 200px solid transparent;
+    border-right: 200px solid transparent ;
+    border-bottom: 200px solid black ;
+    border-left: 200px solid transparent;
+    position: absolute;
+    bottom: 388px;
+    z-index: 1;
+    
+}
+.vertical{
+    border: 5px solid black;
+    height: -2px;
+    position: relative;
+    top: 45px;
+    
+}
+.horizontal{
+    border: 5px solid black;
+    width: 0px;
+    height: 90px;
+    position: relative;
+    bottom: 10px;
+    left: 45px;
+}
+.chimenea{
+    height: 200px;
+    width: 80px;
+    background: tomato;
+    position: absolute;
+    top: 200px;
+}

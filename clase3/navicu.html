@@ -29,15 +29,42 @@
             <div></div>
         </div>
     </header>
-    <section class="busqueda">
+    <section id="busqueda">
         <div>
-            <form action="">
-                <h2>¿A dónde quieres ir?</h2>
-                <input type="text" name="destino" id="" placeholder="Escribe aqui tu destino, región o ciudad">
-                <input type="date" name="fecha-inicio" id="" >
-                <input type="date" name="fecha-final" id="">
-                <input type="number" name="adultos" id="">
-            </form> 
+			<form>
+				<div>
+					<div>
+						<p>¿A dónde quieres ir?</p>
+					</div>
+					<div>
+						<a href="#">Hoteles</a>
+						<a href="#">Vuelos</a>
+					</div>
+				</div>
+				<div>
+					<input type="text" name="destino" placeholder="Escribe tu destino, región o ciudad">
+					<input type="date" name="fecha-inicio">
+					<input type="date" name="fecha-fin">
+					<input type="number" name="cantidad-adultos">
+					<input type="number" name="cantidad-niños">
+					<input type="number" name="cantidad-habitacion">
+					<input type="submit" name="buscar" value="Buscar">
+				</div>
+			</form>
+		</div>
+    </section>
+    <section id="destinos">
+        <div class="foto-destino">
+            <img src="img/Hydrangeas.jpg" alt="destino" title="destino" class="imagen-rotando">
+        </div>
+        <div class="foto-destino">
+            <img src="img/imagen01.jpg" alt="destino" title="destino" class="imagen-estirada">
+        </div>
+        <div class="foto-destino">
+            <img src="img/imagen02.jpg" alt="destino" title="destino" class="imagen-escalando">
+        </div>
+        <div class="foto-destino">
+            <img src="img/imagen03.jpg" alt="destino" title="destino" class="imagen-moviendo">
         </div>
     </section>
 </body>
